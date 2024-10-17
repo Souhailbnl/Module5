@@ -4,21 +4,10 @@ import { clear } from 'node:console';
 const userInput = readline.createInterface({input, output});
  
  
- 
- 
- 
 let Maand = await userInput.question('Geef een maand in het jaar ?');
  
  
 let jaartal = await userInput.question('Geef een jaartal:');
- 
- 
- 
- 
- 
- 
- 
- 
  
 let dagen=0;
  
